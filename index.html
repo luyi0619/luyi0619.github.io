@@ -1,72 +1,123 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 2.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="description" content="Your description goes here" />
-	<meta name="keywords" content="your,keywords,goes,here" />
-	<meta name="author" content="Your Name" />
-	<link rel="stylesheet" type="text/css" href="basic-profile.css" title="Basic Profile" media="all" />
-	<title>Yi Lu (CUHK)</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Yi Lu (CSE@CUHK)</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <style>
+    body {
+        margin-top: 60px;
+    }
+    </style>
+
 </head>
 
 <body>
-<div id="wrap">
-	<div id="sidebar">
-		<a href="index.html"><img src="images/logotype.jpg" width="280" height="280" alt="Sample logotype" /></a>
-		<h1><a href="index.html">Yi Lu</a></h1>
-		<ul>
-			<li><a href="http://www.cse.cuhk.edu.hk/">Department of Computer Science and Engineering</a></li>
-			<li><a href="http://www.cuhk.edu.hk/">The Chinese University of Hong Kong</a></li>
-			<li><div id="enf">Contact</div><br />Room 115, Ho Sin-Hang Engineering Building <br />The Chinese University of Hong Kong<br />Shatin, New Territories<br />Hong Kong<br /><br />Email: ylu AT cse.cuhk.edu.hk</li>
-			<li><div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://appsrv.cse.cuhk.edu.hk/~ylu/', 'user' : 1107381, 'server' : '2', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2013-08-12', 'lang' : 'zh', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www2.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www2.clustrmaps.com/user/1b610e5b5"><img src="http://www2.clustrmaps.com/stats/maps-no_clusters/appsrv.cse.cuhk.edu.hk-~ylu--thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
-</li>
-		</ul>
-	</div>
 
-	<div id="content">
-		<h3>About Me</h2>
-		<p>
-			My name is Yi Lu (卢祎 in Chinese).
-        </p>
-        <p>
-            I'm a first year M.Phil. student in Department of Computer Science and Engineering at The Chinese University of Hong Kong. My advisor is <a href="http://appsrv.cse.cuhk.edu.hk/~jcheng/">Prof. James Cheng</a>.
-		</p>
-		<p>
-			Before joining the Chinese University of Hong Kong, I got my bachelor's degree in <a href="http://www.cs.hit.edu.cn/">School of Computer Science and Technology</a> at <a href="http://en.hit.edu.cn">Harbin Institute of Technology, China</a>.
-		</p>	
-		<p>
-			<a href="timetable.php"> My timetable in 2014 SPRING Semester.</a>
-		</p>
-		<h3>Research Interests</h3>
-		<ul>
-			<li> Database </li>
-			<li> Graph Data Mining </li>
-		</ul>
-        
-        <h3>Research Project</h3>
-		<ul>
-			<li><a href="http://www.cse.cuhk.edu.hk/pregelplus/">Pregel+</a>: More Than Yet Another Pregel-Like System</li>
-		</ul>
-        
-		<h3>Internship Experience</h3>
-		<ul>
-			<li> July 2012 - May 2013, <a href="http://research.microsoft.com/en-us/labs/asia/">Microsoft Research Asia</a>, Beijing</li>
-		</ul>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Yi Lu (CSE@CUHK)</a>
+            </div>
 
-		<h3>Tutor</h3>
-		<ul>
-			<li><a href="http://www.cse.cuhk.edu.hk/csci3190/">CSCI 3190 Introduction to Discrete Mathematics and Algorithms</a></li>
-			<li><a href="http://www.cse.cuhk.edu.hk/csci2100a/">CSCI 2100 Data Structures</a></li>
-		</ul>
-		<h3>Service</h3>
-		<ul>
-			<li>External review : BDSE 2013, DASFAA 2014, WAIM 2014</li>
-		</ul>
-		<p class="credits">&copy; 2014 Yi Lu<br />
-		Last updated on 22, February, 2014.
-		</p>
-		
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+					<li><a href="timetable.php">Time Table</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+    
+        <div class="row">
+            
+            <div class="col-8 col-sm-8 col-lg-8">
+                <h2>About Me</h2>
+                <p>
+                    My name is Yi Lu (卢祎 in Chinese).
+                </p>
+                <p>
+                    I'm a first year M.Phil. student in Department of Computer Science and Engineering at The Chinese University of Hong Kong. My advisor is <a href="http://appsrv.cse.cuhk.edu.hk/~jcheng/">Prof. James Cheng</a>.
+                </p>
+                <p>
+                    Before joining the Chinese University of Hong Kong, I got my bachelor's degree in <a href="http://www.cs.hit.edu.cn/">School of Computer Science and Technology</a> at <a href="http://en.hit.edu.cn">Harbin Institute of Technology, China</a>.
+                </p>	
+                <h2>Research Interests</h2>
+                <ul>
+                    <li> Database </li>
+                    <li> Graph Data Mining </li>
+                </ul>
+                <h2>Research Project</h2>
+                <ul>
+                    <li><a href="http://www.cse.cuhk.edu.hk/pregelplus/">Pregel+</a>: More Than Yet Another Pregel-Like System</li>
+                </ul>
+                <h2>Internship Experience</h2>
+                <ul>
+                    <li> July 2012 - May 2013, <a href="http://research.microsoft.com/en-us/labs/asia/">Microsoft Research Asia</a>, Beijing</li>
+                </ul>
+                 <ul>
+                    <li><a href="http://www.cse.cuhk.edu.hk/csci3190/">CSCI 3190 Introduction to Discrete Mathematics and Algorithms</a></li>
+                    <li><a href="http://www.cse.cuhk.edu.hk/csci2100a/">CSCI 2100 Data Structures</a></li>
+                </ul>
+                <h2>Service</h2>
+                <ul>
+                    <li>External review : BDSE 2013, DASFAA 2014, WAIM 2014</li>
+                </ul>
+            </div>
+            <div class="col-4 col-sm-4 col-lg-4">
+                <a href="index.html"><img src="images/logotype.jpg" width="280" height="280" alt="Photo" /></a>
+                <h2>Yi Lu</h2>
+                <p>M.Phil. Student</p>
+                <address>
+                    Department of Computer Science and Engineering<br>
+                    The Chinese University of Hong Kong<br>
+                    Shatin, N.T, Hong Kong <br>
+                </address>
+                <p>
+                    Email: <a href="mailto:ylu@cse.cuhk.edu.hk"> ylu AT cse.cuhk.edu.hk</a> <br>
+                    Office: Room 115, Ho Sin-Hang Engineering Building, CUHK. <br>
+                </p>
+            </div>
+        </div>
 	</div>
-</div>
+    <div class="container">
+        <hr>
+        <footer>
+            <div class="row">
+                <div id="clustrmaps-widget"  style="position:relative; float:right; right:0px; bottom:0px;"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://appsrv.cse.cuhk.edu.hk/~ylu/', 'user' : 1107381, 'server' : '2', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2013-08-12', 'lang' : 'zh', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www2.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www2.clustrmaps.com/user/1b610e5b5"><img src="http://www2.clustrmaps.com/stats/maps-no_clusters/appsrv.cse.cuhk.edu.hk-~ylu--thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
+            </div>
+        </footer>
+    </div>
+        
+    </div>
+    
+    
+    
+    <!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
 </body>
+
 </html>

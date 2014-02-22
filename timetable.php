@@ -240,7 +240,7 @@
    </style>
 </head>
 <body>
-	<div class="title">Week Beginning Monday January 6, 2014</div>
+	<div class="title">2014 Spring</div>
 	<table>
 		<?php 
 			
