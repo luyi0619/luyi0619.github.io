@@ -36,11 +36,13 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- 
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
 					<li><a href="timetable.php">Time Table</a></li>
                 </ul>
             </div>
+            -->
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
@@ -56,28 +58,65 @@
                     My name is Yi Lu (卢祎 in Chinese).
                 </p>
                 <p>
-                    I'm a first year M.Phil. student in Department of Computer Science and Engineering at The Chinese University of Hong Kong. My advisor is <a href="http://appsrv.cse.cuhk.edu.hk/~jcheng/">Prof. James Cheng</a>.
+                    I'm a second year M.Phil. student in Department of Computer Science and Engineering at The Chinese University of Hong Kong. My advisor is <a href="http://appsrv.cse.cuhk.edu.hk/~jcheng/">Prof. James Cheng</a>.
                 </p>
                 <p>
                     Before joining the Chinese University of Hong Kong, I got my bachelor's degree in <a href="http://www.cs.hit.edu.cn/">School of Computer Science and Technology</a> at <a href="http://en.hit.edu.cn">Harbin Institute of Technology, China</a>.
                 </p>	
                 <h2>Research Interests</h2>
                 <ul>
-                    <li> Database </li>
-                    <li> Graph Data Mining </li>
+                    <li> Graph Database and Data Management </li>
+                    <li> Distributed Graph Algorithms and Systems </li>
                 </ul>
+                
+                <h2>Projects</h2>
+                <p>I focus on algorithm design and system implementation for large-scale graph computing. I am the core developer of the following projects, which will be presented in VLDB 2015.</p>
+                <ul>
+                    <li><a href="http://appsrv.cse.cuhk.edu.hk/blogel/">Blogel</a>: It is a block-centric framework, which naturally handles all the three adverse graph characteristics, (1)skewed degree distribution, (2)large diameter, and (3)(relatively) high density. Blogel programmers may think like a block and develop efficient algorithms for various graph problems. Our experiments on large real-world graphs verified that Blogel is able to achieve orders of magnitude performance improvements over the state-of-the-art distributed graph computing systems.</li>
+                    <li><a href="http://appsrv.cse.cuhk.edu.hk/pregelplus/">Pregel+</a>: Two effective message reduction techniques: (1)vertex mirroring and (2)a new request-respond paradigm are proposed in Pregel+, which can handle the communication bottleneck and the corresponding imbalanced workload of the original Pregel-like systems. Extensive experiments over various large real graphs show that Pregel+ is significantly more efficient than the state-of-the-art graph computing systems, especially for processing power-law graphs and (relatively) dense graphs.</li>
+                </ul>
+                
+                <h2>Publications</h2>
+                <h4>2015</h4>
+                <ul>
+                    <li><b>Yi Lu</b>, James Cheng, Da Yan, Huanhuan Wu<table border="0" height="2cm"></table>Large-Scale Distributed Graph Computing Frameworks: An Experimental Evaluation, to appear in Proceedings of the VLDB Endowment (<b>PVLDB</b>)</li>
+                </ul>
+                
+                <h4>2014</h4>
+                <ul>
+                    <li>Da Yan, James Cheng, <b>Yi Lu</b>, Wilfred Ng<table border="0" height="2cm"></table>Blogel: A Block-Centric Framework for Distributed Computation on Real-World Graphs, to appear in Proceedings of the VLDB Endowment (<b>PVLDB</b>)</li>
+                    <li>Da Yan, James Cheng, Kai Xing, <b>Yi Lu</b>, Wilfred Ng, Yingyi Bu<table border="0" height="2cm"></table>Pregel Algorithms for Graph Connectivity Problems with Performance Guarantees, to appear in Proceedings of the VLDB Endowment (<b>PVLDB</b>)</li>
+                    <li>Huanhuan Wu, James Cheng, Silu Huang, Yiping Ke, <b>Yi Lu</b>, Yanyan Xu<table border="0" height="2cm"></table>Path Problems in Temporal Graphs, in Proceedings of the VLDB Endowment (<b>PVLDB</b>)</li>
+                </ul>
+                
+                <h4>2013</h4>
+                <ul>
+                    <li>Xiaohua Liu, Yitong Li, Haocheng Wu, Ming Zhou, Furu Wei, <b>Yi Lu</b><table border="0" height="2cm"></table>Entity linking for tweets, in Proceedings of the Association for Computational Linguistic (<b>ACL</b>)</li>
+                </ul>
+                
                 <h2>Internship Experience</h2>
                 <ul>
-                    <li> July 2012 - May 2013, <a href="http://research.microsoft.com/en-us/labs/asia/">Microsoft Research Asia</a>, Beijing</li>
+                    <li> July 2014 - August 2014, <a href="http://www.alibabagroup.com/en/global/home">Alibaba Group</a>, Hangzhou, China</li>
+                    <li> July 2012 - May 2013, <a href="http://research.microsoft.com/en-us/labs/asia/">Microsoft Research Asia</a>, Beijing, China</li>
                 </ul>
-                <h2>Tutor</h2>
+                <h2>Teaching Experience</h2>
                 <ul>
-                    <li><a href="http://www.cse.cuhk.edu.hk/csci3190/">CSCI 3190 Introduction to Discrete Mathematics and Algorithms</a></li>
+                    <li><a href="http://www.cse.cuhk.edu.hk/csci3170/">CSCI 3170 Introduction to Database Systems</a></li>
                     <li><a href="http://www.cse.cuhk.edu.hk/csci2100a/">CSCI 2100 Data Structures</a></li>
+                    <li><a href="http://www.cse.cuhk.edu.hk/csci3190/">CSCI 3190 Introduction to Discrete Mathematics and Algorithms</a></li>
+                    
                 </ul>
-                <h2>Service</h2>
+                <h2>External Review</h2>
                 <ul>
-                    <li>External review : BDSE 2013, DASFAA 2014, WAIM 2014</li>
+                    <li>2015: ICDE</li>
+                    <li>2014: KDD, PVLDB, DASFAA, WAIM, ASONAM, BDSE, SNAKDD</li>
+                    <li>2013: BDSE</li>
+                </ul>
+                <h2>Skills</h2>
+                <ul>
+                    <li>Languages: C/C++, C#, Java, Python, Scala</li>
+                    <li>Systems: Hadoop, Giraph, GraphLab, GraphChi, Spark</li>
+                    <li>Tools: Git, OpenMPI</li>
                 </ul>
             </div>
             <div class="col-4 col-sm-4 col-lg-4">
@@ -91,7 +130,7 @@
                 </address>
                 <p>
                     Email: <a href="mailto:ylu@cse.cuhk.edu.hk"> ylu AT cse.cuhk.edu.hk</a> <br>
-                    Office: Room 115, Ho Sin-Hang Engineering Building, CUHK. <br>
+                    Office: Room 106, Ho Sin-Hang Engineering Building, CUHK. <br>
                 </p>
             </div>
         </div>
