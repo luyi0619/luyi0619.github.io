@@ -3,6 +3,8 @@
 import subprocess
 import os
 
+# brew install imagemagick ghostscript
+
 pdfs = [f for f in os.listdir('../') if f.endswith('.pdf')]
 
 for p in pdfs:
